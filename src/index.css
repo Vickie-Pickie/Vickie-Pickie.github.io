@@ -1,13 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 1280px;
+  margin: auto;
+}
+
+.header {
+  background: rgba(0,0,0,0.69) url("./assets/images/searchResultsHeader_bg.jpg");
+  color: #FFFFFF;
+}
+
+.main {
+  background: #E5E5E5;
+  padding: 45px 0;
+}
+
+.content {
+  display: flex;
+  align-items: flex-start;
+}
+
+.side-bar {
+  width: 300px;
+  margin-right: 60px;
+}
+
+.side-bar__block {
+  background: #3E3C41;
+  color: #FFFFFF;
+}
+
+.main-body {
+  flex: 1;
+}
+
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.seat-item.schema_item_available {
+  background: #F3F3F3;
+  color: #292929;
+  cursor: pointer;
+}
+
+.seat-item.schema_item_available:hover {
+  background: #FFD98F;
+}
+
+.seat-item.schema_item-selected {
+  border: 1px solid #FFA800;
+}
+
+.order-button-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cs-title {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.circularProgress-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }

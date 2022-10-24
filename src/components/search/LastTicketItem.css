@@ -1,0 +1,63 @@
+.last-ticket {
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-shadow: 0 2px 2px 2px rgba(196,196,196,0.75);
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.last-ticket__row {
+    margin-bottom: 10px;
+}
+
+.last-ticket__row:last-child {
+    margin: 30px 0 0;
+}
+
+.last-ticket__cities,
+.last-ticket__railway-stations,
+.last-ticket__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.last-ticket__cities,
+.last-ticket__railway-stations {
+    text-transform: capitalize;
+}
+
+.last-ticket__cities {
+    color: #292929;
+}
+
+.last-ticket__railway-stations span {
+    color: #928F94;
+    font-size: 14px;
+    width: 100px;
+}
+
+.last-ticket__railway-stations span:last-child {
+    text-align: end;
+}
+
+.last-ticket__info {
+    color: #928F94;
+    font-size: 14px;
+}
+
+.last-ticket__info-options .MuiSvgIcon-root {
+    margin-right: 10px;
+}
+
+.last-ticket__info-price {
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFA800;
+    margin: 0 5px;
+}
+
+.last-ticket__info-currency {
+    font-size: 18px;
+}
+

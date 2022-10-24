@@ -1,0 +1,178 @@
+.trip-details {
+    background: #3E3C41;
+    color: #FFFFFF;
+}
+
+.trip-details__section {
+    border-bottom: 1px solid #E5E5E5;
+    padding: 20px 25px;
+}
+
+.trip-details__section-body {
+    width: 100%;
+}
+
+.trip-details__header {
+    text-transform: uppercase;
+    color: #E5E5E5;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.trip-details__section-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trip-details__title-content {
+    display: flex;
+    align-items: center;
+}
+
+.trip-details__title-icon,
+.trip-details__title-label {
+    margin-right: 10px;
+}
+
+.trip-details__title-button {
+    width: 20px;
+    height: 20px;
+}
+
+.trip-details__title-button .MuiIconButton-root {
+    width: 20px;
+    height: 20px;
+}
+
+.trip-details__title-button .MuiSvgIcon-root {
+    color: #FFFFFF;
+}
+
+.trip-details__route-info {
+    margin: 30px 0;
+}
+
+.trip-details__route-info-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.trip-details__route-info-row span {
+    color: #E5E5E5;
+}
+
+.trip-details__route-number {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.trip-details__route-name {
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-transform: capitalize;
+}
+
+.trip-details__route-details-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.trip-details__route-details-row-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.trip-details__route-details-row-col:nth-child(2) {
+    align-items: center;
+}
+
+.trip-details__route-details-row-col:last-child {
+    align-items: flex-end;
+}
+
+.trip-details__route-time {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.trip-details__route-date {
+    color: #928F94;
+}
+
+.trip-details__route-details-city {
+   text-transform: capitalize;
+}
+.trip-details__route-details-station {
+    font-size: 14px;
+    color: #928F94;
+    width: 100px;
+}
+
+.trip-details__route-details-station_end {
+    text-align: end;
+}
+
+
+.trip-details__passengers-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.trip-details__passengers-row:nth-child(2) {
+    margin-top: 30px;
+}
+
+.trip-details__passengers-quantity {
+    color: #E5E5E5;
+}
+
+.trip-details__passengers-price {
+    display: flex;
+}
+
+.trip-details__passengers-price-num {
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.trip-details__passengers-price-currency {
+    color: #928F94;
+}
+
+.trip-details__footer {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trip-details__footer span {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.trip-details__footer-price {
+    display: flex;
+    font-size: 24px;
+}
+
+.trip-details__footer-price-total {
+    font-weight: 700;
+    color: #FFA800;
+    margin-right: 20px;
+}
+
+.trip-details__footer-price-currency {
+    color: #E5E5E5;
+}

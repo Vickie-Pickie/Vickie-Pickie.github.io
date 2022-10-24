@@ -1,0 +1,47 @@
+.payment-form {
+    width: 100%;
+}
+
+.payment-form__body {
+    border: 1px solid #C4C4C4;
+    box-shadow: 0 2px 2px 2px rgba(196,196,196,0.75);
+    margin-bottom: 45px;
+    background: #FFFFFF;
+    color: #292929;
+}
+
+.text-field-label {
+    color: #292929;
+}
+
+.payment-form__header {
+    padding: 35px;
+    background: #F9F9F9;
+    font-size: 20px;
+    border-bottom: 1px dotted #C4C4C4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.payment-form__section {
+    background: #FFFFFF;
+    padding: 35px;
+    border-bottom: 1px dotted #C4C4C4;
+}
+
+.payment-form__section:last-child {
+    border: none;
+}
+
+.payment-form__payment-system {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+.payment-form__button {
+    display: flex;
+    justify-content: flex-end;
+}

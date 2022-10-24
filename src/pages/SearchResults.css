@@ -1,0 +1,40 @@
+
+
+.sr-main {
+    background: #E5E5E5;
+}
+
+.sr-items-nav {
+    margin-bottom: 30px;
+}
+
+.sr-items-nav__row {
+    display: flex;
+    justify-content: space-between;
+    color: #928F94;
+}
+
+.sr-items-nav__filters {
+    display: flex;
+}
+
+.sr-items-nav__sort {
+    margin-right: 10px;
+    display: flex;
+}
+
+.sr-items-nav__pagination {
+    display: flex;
+}
+.sr-items-nav__pagination-count {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.sr-items-nav__pagination-count.pagination-count_active {
+    color: #292929;
+}
+
+.sr-items-nav__pagination-count:hover {
+    color: #292929;
+}

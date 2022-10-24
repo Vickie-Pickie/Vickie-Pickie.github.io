@@ -1,0 +1,158 @@
+.train-card {
+    width: 100%;
+    display: flex;
+    border: 1px solid #C4C4C4;
+    box-shadow: 0 2px 2px 2px rgba(196,196,196,0.75);
+    margin-bottom: 45px;
+}
+
+.train-card__left,
+.train-card__middle,
+.train-card__right {
+    padding: 40px 20px 20px;
+}
+
+.train-card__left {
+    background: #E4E0E9;
+    width: 180px;
+}
+
+.train-card__left-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.train-card__train-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.train-card__icon-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 86px;
+    height: 86px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.train-card__train-num {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    color: #3E3C41;
+}
+
+.train-card__route-row {
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.train-card__route-arrow {
+    margin-left: 10px;
+    display: flex;
+}
+
+.train-card__middle {
+    background: #FFFFFF;
+    flex-grow: 1;
+}
+
+.train-card__middle-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.train-card__middle-row:first-child {
+    margin-bottom: 40px;
+}
+
+.train-card__middle-point {
+    width: 160px;
+}
+
+.train-card__middle-time {
+    color: #000000;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.train-card__middle-city {
+    color: #292929;
+}
+
+.train-card__middle-station {
+    color: #928F94;
+    font-size: 14px;
+}
+
+.train-card__middle-duration {
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.train-card__middle-duration_west svg {
+    transform: rotate(180deg);
+}
+
+.train-card__middle-duration-time {
+    color: #C4C4C4;
+}
+.train-card__right {
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    width: 280px;
+}
+
+.train-card__right-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.train-card__right-type {
+    color: #3E3C41;
+    width: 85px;
+}
+
+.train-card__right-quantity {
+    color: #FFA800;
+    font-weight: 700;
+}
+
+.train-card__right-summery {
+    color: #928F94;
+    width: 100px;
+}
+
+.train-card__right-price {
+    font-size: 18px;
+    font-weight: 700;
+    color: #2D2B2F;
+    margin: 0 5px;
+}
+
+.train-card__right-currency {
+    font-size: 18px;
+}
+
+.train-card__right-options {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    color: #C4C4C4;
+    margin-bottom: 20px;
+}
+
+.train-card__right-options .MuiSvgIcon-root {
+    margin-left: 10px;
+}

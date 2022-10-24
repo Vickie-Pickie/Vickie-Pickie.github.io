@@ -1,0 +1,152 @@
+main {
+    background: #FFFFFF;
+}
+
+.index-header {
+    background: rgba(0,0,0,0.69) url("../assets/images/Indexheader-bg.png");
+    color: #FFFFFF;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 36px;
+    font-weight: 900;
+    color: #E5E5E5;
+}
+
+.logo-block {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px 0;
+}
+
+.header-menu-block {
+    background: #292929;
+    padding: 25px 0;
+}
+
+.header__menu {
+    display: flex;
+}
+
+.menu__item {
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-right: 80px;
+    font-size: 16px;
+}
+
+.menu__item:last-child{
+    margin-right: 0;
+}
+
+.index-header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.index-header__slogan {
+    font-size: 40px;
+    width: 300px;
+    margin-right: 80px;
+}
+
+.row {
+    width: 100%;
+    height: 8px;
+    background: #FFA800;
+}
+
+.about__title,
+.how-it-works__title,
+.feedback__title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.about {
+    padding: 60px 0;
+    background: #FFFFFF;
+}
+
+.about__title {
+    margin-bottom: 30px;
+}
+
+.about__content {
+    border-left: solid 9px #FFA800;
+    color: #292929;
+    padding-left: 20px;
+}
+
+.about__paragraph {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.about__paragraph:last-child {
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.how-it-works {
+    color: #FFFFFF;
+    background: #FFA800 url("../assets/images/how-it-works-bg.png");
+    padding: 40px 0;
+}
+
+.how-it-works__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.how-it-works__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.how-it-works__item {
+    margin-right: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+}
+
+.how-it-works__icon {
+    width: 135px;
+    height: 135px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px rgba(229, 229, 229, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.how-it-works__item:last-child {
+    margin-right: 0;
+}
+
+.how-it-works__label {
+    margin-top: 30px;
+    font-size: 16px;
+    color: #E5E5E5;
+    text-align: center;
+}
+
+.feedback {
+    padding: 60px 0;
+    background: #FFFFFF;
+}
+
+.feedback__title {
+    color: #292929;
+}
+
+

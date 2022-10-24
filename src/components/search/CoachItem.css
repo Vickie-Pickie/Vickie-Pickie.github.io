@@ -1,0 +1,207 @@
+.coach-card {
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-shadow: 0 2px 2px 2px rgba(196,196,196,0.75);
+    margin-bottom: 30px;
+}
+
+.coach-card__nav {
+    display: flex;
+    padding: 30px 20px;
+}
+
+.coach-card__nav.coach-card__nav_arrival {
+    justify-content: flex-end;
+}
+
+.coach-card__arrow {
+    margin-right: 20px;
+}
+
+.coach-card__arrow svg {
+    width: auto;
+    height: 100%;
+}
+
+.coach-card__route {
+    padding: 0 35px;
+    background: #F7F6F6;
+    display: flex;
+}
+
+.coach-card__route-left,
+.coach-card__route-right {
+    width: 240px;
+}
+
+.coach-card__route-left,
+.coach-card__route-middle,
+.coach-card__route-right {
+    padding: 15px 0;
+}
+
+.coach-card__route-left {
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #FFFFFF;
+}
+
+.coach-card__route-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+
+.coach-card__route-icon_border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #FFA800;
+    border-radius: 50%;
+}
+
+.coach-card__route-train {
+
+}
+
+.coach-card__route-number {
+    color: #3E3C41;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.coach-card__route-row {
+    display: flex;
+}
+
+.coach-card__route-point {
+    font-size: 14px;
+    color: #292929;
+    margin-right: 5px;
+    text-transform: capitalize;
+}
+
+.coach-card__route-arrow .MuiSvgIcon-root {
+    color: #292929;
+}
+
+.coach-card__route-point_grey {
+    color: #928F94;
+}
+
+.coach-card__route-arrow_grey .MuiSvgIcon-root {
+    color: #928F94;
+}
+
+.coach-card__route-middle {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.coach-card__route-middle-point {
+    width: 120px;
+}
+
+.coach-card__route-middle-time {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.coach-card__route-middle-city {
+    color: #292929;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.coach-card__route-middle-station {
+    font-size: 14px;
+    color: #928F94;
+}
+
+.coach-card__route-right {
+    display: flex;
+    align-items: center;
+    border-left: 1px solid #FFFFFF;
+    padding-left: 20px;
+}
+
+.coach-card__route-icon .MuiSvgIcon-root {
+    width: 100%;
+    height: 100%;
+}
+
+.coach-card__route-duration {
+    color: #000000;
+}
+
+.coach-card__tickets-quantity {
+    background: #FFFFFF;
+    padding: 40px 0;
+    border-bottom: 1px dotted #C4C4C4;
+}
+
+.coach-card__tickets-quantity-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #292929;
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+
+.coach-card__tickets-quantity-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.coach-card__tickets-select {
+    width: calc((100% - 160px)/ 3);
+    padding: 20px 35px;
+}
+
+.coach-card__tickets-select:hover {
+    border: 1px solid #FFA800;
+}
+
+.coach_card__coach-type {
+    background: #FFFFFF;
+    padding: 30px 20px;
+}
+
+.coach_card__coach-type-title {
+    color: #292929;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.coach_card__coach-types-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coach_card__coach-type-item {
+    width: calc((100% - 360px) / 4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.coach_card__coach-type-item svg,
+.coach_card__coach-type-item .MuiSvgIcon-root {
+    height: 50px;
+    width: 100%;
+}
+
+.coach_card__coach-type-label {
+    margin-top: 20px;
+    color: #928F94;
+    font-size: 16px;
+}

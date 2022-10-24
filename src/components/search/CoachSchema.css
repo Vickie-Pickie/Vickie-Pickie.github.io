@@ -1,0 +1,148 @@
+.coach_card__coach-schema {
+    background: #FFFFFF;
+}
+
+.coach-card__schema-row {
+    display: flex;
+    justify-content: space-between;
+    color: #000000;
+}
+
+.coach-card__coach-nav {
+    padding: 15px 35px;
+    background: #FFD98F;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #000000;
+}
+
+.coach-card__coach-quantity {
+    display: flex;
+}
+
+.coach-card__coach-quantity-title {
+    margin-right: 10px;
+}
+
+.coach-card__coach-quantity-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.coach-card__coach-quantity-item {
+    margin-right: 5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.coach_selected {
+    color: #FFFFFF;
+}
+
+.coach-card__schema-coach-number {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #FFD98F;
+    padding: 20px 40px;
+    margin-right: 30px;
+}
+
+.coach-card__schema-coach-number div:first-child {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.coach-card__schema-coach-number div:last-child {
+    font-size: 18px;
+}
+
+.coach-card__schema-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    padding: 20px 20px;
+}
+
+.coach-card__schema-info-col {
+    display: flex;
+    flex-direction: column;
+    width: calc((100% - 150px) / 3);
+}
+
+.coach-card__schema-info-col-row {
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.coach-card__schema-info-col-row_title {
+    font-size: 14px;
+    color: #928F94;
+    margin-right: 10px;
+}
+
+.coach-card__schema-info-col-row-seat {
+    margin-right: 10px;
+}
+
+.coach-card__schema-info-col-row-quantity {
+    font-weight: 700;
+}
+
+.coach-card__schema-info-col-row-price {
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.coach-card__schema-info-col-row-currency {
+    color: #928F94;
+}
+
+.coach-card__schema-info-options {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.coach-card__schema-info-options-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #000000;
+    border-radius: 2px;
+}
+
+.coach-card__schema-info-options-item svg path {
+    fill: #000000;
+}
+
+.schema {
+    display: flex;
+    align-items: center;
+    margin: 36px 18px;
+}
+
+.schema__pic-left {
+    height: 120px;
+    width: 130px;
+    background: url('../../assets/images/train_start.png');
+    background-size: cover;
+}
+
+.schema__pic-middle {
+    flex-grow: 1;
+}
+
+.schema__pic-right {
+    height: 120px;
+    width: 71px;
+    background: url('../../assets/images/train_end.png');
+    background-size: cover;
+}

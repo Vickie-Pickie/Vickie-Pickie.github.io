@@ -1,0 +1,38 @@
+.search-filters {
+    background: #3E3C41;
+    color: #FFFFFF;
+}
+
+.search-filters__section {
+    padding: 20px 30px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.search-filters__row {
+    display: flex;
+}
+
+.search-filters__option {
+    display: flex;
+    align-items: center;
+    width: 200px;
+}
+
+.search-filters__option-icon {
+    margin-right: 40px;
+}
+
+.search-filters__option-icon svg {
+    width: 20px;
+    height: 20px;
+}
+
+.search-filters__option-icon .MuiSvgIcon-root {
+    width: 20px;
+    height: 20px;
+}
+
+.search-filters__price-title {
+    font-size: 18px;
+    font-weight: 700;
+}

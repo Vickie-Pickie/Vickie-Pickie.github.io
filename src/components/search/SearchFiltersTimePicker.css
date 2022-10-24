@@ -1,0 +1,51 @@
+.search-filters__time {
+    display: flex;
+    flex-direction: column;
+}
+
+.search-filters__time-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-filters__time-direction {
+    display: flex;
+    align-items: center;
+}
+
+.search-filters__time-arrow {
+    margin-right: 20px;
+    height: 26px;
+}
+
+.search-filters__time-button {
+    width: 20px;
+    height: 20px;
+}
+
+.search-filters__time-button .MuiIconButton-root {
+    width: 20px;
+    height: 20px;
+    color: #FFFFFF;
+}
+
+.search-filters__time-text {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.search-filters__time-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.search-filters__time-row-label {
+    display: flex;
+}
+
+.search-filters__time-row-label_right {
+    justify-content: flex-end;
+}

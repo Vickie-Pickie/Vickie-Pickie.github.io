@@ -1,0 +1,40 @@
+.search-form {
+    background: rgba(41, 41, 41, 0.8);
+    padding: 50px 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-form__label {
+    display: flex;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.search-form__row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.search-form__fields {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-form_wide .search-form__body {
+    display: flex;
+}
+
+.search-form_wide .search-form__row_dates {
+    margin-left: 30px;
+}
+
+.search-form_wide .search-form__row_dates .search-form__fields .MuiFormControl-root:first-child {
+    margin-right: 30px;
+}
+
+.search-form__button {
+    display: flex;
+    justify-content: flex-end;
+}

@@ -1,0 +1,11 @@
+.last-tickets-widget {
+    margin-top: 90px;
+}
+
+.last-tickets__title {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 25px;
+}
