@@ -91,7 +91,7 @@ const FinalPage = () => {
               <div className="order__rating">
                 <span>Оцените наш сервис</span>
                 {
-                  Array.from({length: 5}).map((item, ind) => (
+                  Array.from({ length: 5 }).map((item, ind) => (
                     <div key={ind} className="order__star">
                       <IconButton
                         size="large"

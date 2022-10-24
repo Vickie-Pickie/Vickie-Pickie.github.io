@@ -9,7 +9,7 @@ const app = createSlice({
     setStep(state, action) {
       state.step = action.payload;
     },
-  }
+  },
 });
 
 export default app;

@@ -20,7 +20,7 @@ export const routesApi = createApi({
         return {
           url: `/routes?${searchParams.toString()}`,
           method: 'GET',
-        }
+        };
       },
     }),
     getSeats: builder.query({
@@ -28,15 +28,15 @@ export const routesApi = createApi({
         return {
           url: `/routes/${id}/seats`,
           method: 'GET',
-        }
+        };
       },
     }),
     getLastTickets: builder.query({
       query: () => {
-       return {
-         url: '/routes/last',
-         method: 'GET',
-       }
+        return {
+          url: '/routes/last',
+          method: 'GET',
+        };
       },
     }),
   }),

@@ -143,7 +143,7 @@ const SearchResults = () => {
                   {
                     data.items.map((item) => (
                       <TrainItem
-                        key={item.arrival?._id + item.departure._id}
+                        key={`${item.arrival?._id} ${item.departure._id}`}
                         item={item}
                       />
                     ))

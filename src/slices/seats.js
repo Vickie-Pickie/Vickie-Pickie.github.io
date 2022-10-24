@@ -29,7 +29,7 @@ const seats = createSlice({
       }
 
       state.selectedSeats.splice(index, 1);
-    }
+    },
   },
 });
 

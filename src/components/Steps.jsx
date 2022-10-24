@@ -24,14 +24,14 @@ const Steps = () => {
   ];
 
   const stepIndex = stepArr.findIndex((item) => item.name === step);
-  let stepClass = 'steps';
+  let containerClass = 'steps';
 
   if (stepIndex === stepArr.length - 1) {
-    stepClass += ' steps_full';
+    containerClass += ' steps_full';
   }
 
   return (
-    <div className={stepClass}>
+    <div className={containerClass}>
       <div className="wrapper">
         <div className="steps__body">
           {

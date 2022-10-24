@@ -44,9 +44,9 @@ const search = createSlice({
         .reduce((res, field) => {
           res[field] = action.payload[field];
           return res;
-        } , {});
+        }, {});
 
-      state.searchRequest = {...state.searchRequest, ...request};
+      state.searchRequest = { ...state.searchRequest, ...request };
     },
   },
 });

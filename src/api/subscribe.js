@@ -6,7 +6,7 @@ export const subscriptionApi = createApi({
   baseQuery: fetchBaseQuery({ baseUrl: 'https://netology-trainbooking.netoservices.ru' }),
   endpoints: (builder) => ({
     addSubscription: builder.mutation({
-    query: (data) => ({ url: 'subscribe', method: 'POST', body: data }),
+      query: (data) => ({ url: 'subscribe', method: 'POST', body: data }),
     }),
   }),
 });

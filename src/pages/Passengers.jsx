@@ -28,7 +28,7 @@ const Passengers = () => {
 
   const handleScroll = () => {
     window.scrollTo({
-      top:  mainBodyRef.current.offsetTop,
+      top: mainBodyRef.current.offsetTop,
       left: 0,
       behavior: 'smooth',
     });
